@@ -1,0 +1,38 @@
+[
+  {
+    "id": "uncomfortable",
+    "question": "Entre as opções abaixo, qual das características da sua pele mais te incomoda?",
+    "answerOptions": [
+      { "answer": "Rugas", "disableOthers": false },
+      { "answer": "Manchas", "disableOthers": false },
+      { "answer": "Acnes", "disableOthers": false },
+      { "answer": "Flacidez", "disableOthers": false },
+      { "answer": "Pé de Galinha", "disableOthers": false },
+      { "answer": "Bigode Chinês", "disableOthers": false },
+      { "answer": "Cicatrizes", "disableOthers": false },
+      { "answer": "Estrias", "disableOthers": false }
+    ],
+    "multiple": true
+  },
+  {
+    "id": "used_solutions",
+    "question": "Você já tentou alguma solução para melhorar a aparência da sua pele, se sim quais?",
+    "answerOptions": [
+      { "answer": "Cremes", "disableOthers": false },
+      { "answer": "Colágeno", "disableOthers": false },
+      { "answer": "Ácido Hialurônico", "disableOthers": false },
+      { "answer": "Tratamentos Estéticos", "disableOthers": false },
+      { "answer": "Nenhum", "disableOthers": true }
+    ],
+    "multiple": true
+  },
+  {
+    "id": "want_free_ebook",
+    "question": "Ok, a seguir você irá ver 3 dicas de beleza dadas por uma profissional! Mas antes quero perguntar a você, se também gostaria de receber um livro digital com os 6 segredos de cuidados com a pele do antigo Egito, gratuitamente?",
+    "answerOptions": [
+      { "answer": "Sim, vou querer!", "disableOthers": false },
+      { "answer": "Não vou querer!", "disableOthers": false }
+    ],
+    "multiple": false
+  }
+]

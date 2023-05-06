@@ -1,0 +1,35 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "plugins": ["prettier", "import-helpers"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "space-before-function-paren": "off",
+    "react/prop-types": "off",
+    "import/no-anonymous-default-export": "off",
+    "react/display-name": "off",
+    "import-helpers/order-imports": [
+      "warn", // exibe um alerta no editor
+      {
+        "newlinesBetween": "always", // insere uma linha em branco após cada grupo de prioridade
+        "groups": [
+          "/^react/", // primeiro grupo: tudo que inicia com 'react'
+          "/^next/",
+          "/stitches/",
+          "module",
+          "/^@infra/",
+          "/^@libs/",
+          "/^@masks/",
+          "/^@validations/",
+          "/^@utils/",
+          "/^@components/",
+          "/^@data/",
+          "/^@styles/",
+          "/^@static/",
+          ["parent", "sibling", "index"] // sétimo grupo: qualquer arquivo pai, irmão ou filho do arquivo atual
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true } // configura as importações por ordem alfabética (crescente), ignorando maiúsculas e minúsculas
+      }
+    ]
+  }
+}
+

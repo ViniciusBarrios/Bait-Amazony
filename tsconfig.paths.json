@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@infra/*": ["src/infra/*"],
+      "@libs/*": ["src/libs/*"],
+      "@masks/*": ["src/models/masks/*"],
+      "@validations/*": ["src/models/validations/*"],
+      "@utils/*": ["src/utils/*"],
+      "@data/*": ["src/data/*"],
+      "@static/*": ["public/*"],
+      "@styles/*": ["styles/*"],
+      "stitches": ["stitches.config.ts"]
+    }
+  }
+}
